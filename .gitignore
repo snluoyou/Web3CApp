@@ -1,0 +1,38 @@
+# .NET Core
+/bin/
+obj/
+*.csproj.user
+
+# 编译输出
+*.exe
+*.dll
+*.pdb
+
+# 其他忽略项
+.vscode/
+*.tmp
+*.log
+*.user
+*.suo
+*.nupkg
+*.snk
+*.mdf
+*.ldf
+*. bak
+*.orig
+*.ini
+
+# 第三方库缓存（NPM/nuget）
+node_modules/
+*.npmignore
+*.yarn.lock
+package-lock.json
+
+# 全局忽略（Windows）
+Thumbs.db
+desktop.ini
+
+# 数据库文件（根据需要修改）
+*.sqlite3
+*.accdb
+*.mdb
