@@ -1,0 +1,12 @@
+@page
+@model WebApp3C.Pages.Video.IndexModel
+
+<h2>视频播放</h2>
+
+<video id="videoPlayer" class="video-js vjs-default-skin" controls preload="auto">
+    <source src="@Model.VideoUrl" type="application/x-mpegURL">
+</video>
+
+@section Scripts {
+    <script src="~/js/video-player.js"></script>
+}
